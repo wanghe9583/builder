@@ -1,0 +1,201 @@
+.margin-sm {
+    margin: 5px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.margin-lg {
+    margin: 15px;
+}
+
+.padding-sm {
+    padding: 5px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.padding-lg {
+    padding: 15px;
+}
+
+.margin-left-sm {
+    margin-left: 5px;
+}
+
+.margin-right-sm {
+    margin-right: 5px;
+}
+
+.margin-top-sm {
+    margin-top: 5px;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 5px;
+}
+
+.margin-left-right-sm {
+    margin: 0 5px;
+}
+
+.margin-left-right {
+    margin: 0 10px;
+}
+
+.margin-left-right-lg {
+    margin: 0 15px;
+}
+
+.margin-top-bottom-sm {
+    margin: 5px 0;
+}
+
+.margin-top-bottom {
+    margin: 10px 0;
+}
+
+.margin-top-bottom-lg {
+    margin: 15px 0;
+}
+
+.padding-left-right-sm {
+    padding: 0 5px;
+}
+
+.padding-left-right {
+    padding: 0 10px;
+}
+
+.padding-left-right-lg {
+    padding: 0 15px;
+}
+
+.padding-top-bottom-sm {
+    padding: 5px 0;
+}
+
+.padding-top-bottom {
+    padding: 10px 0;
+}
+
+.padding-top-bottom-lg {
+    padding: 15px 0;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.margin-left-lg {
+    margin-left: 20px;
+}
+
+.margin-right-lg {
+    margin-right: 20px;
+}
+
+.margin-top-lg {
+    margin-top: 20px;
+}
+
+.margin-bottom-lg {
+    margin-bottom: 20px;
+}
+
+.padding-left-sm {
+    padding-left: 5px;
+}
+
+.padding-right-sm {
+    padding-right: 5px;
+}
+
+.padding-top-sm {
+    padding-top: 5px;
+}
+
+.padding-bottom-sm {
+    padding-bottom: 5px;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.padding-left-lg {
+    padding-left: 20px;
+}
+
+.padding-right-lg {
+    padding-right: 20px;
+}
+
+.padding-top-lg {
+    padding-top: 20px;
+}
+
+.padding-bottom-lg {
+    padding-bottom: 20px;
+}
+
+/*滚动条的宽度*/
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
+
+::-webkit-scrollbar-track {
+    width: 6px;
+    background-color: #ffffff;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+/*滚动条的设置*/
+
+::-webkit-scrollbar-thumb {
+    background-color: #A8A8A8;
+    background-clip: padding-box;
+    min-height: 28px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+/*滚动条移上去的背景*/
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+}
